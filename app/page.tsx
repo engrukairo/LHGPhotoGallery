@@ -17,7 +17,6 @@ export default function HomePage() {
 
   return (
     <main>
-      <Header />
       <section className="max-w-7xl mx-auto px-4 py-10">
         <div className="mb-8">
           <LocationFilter
