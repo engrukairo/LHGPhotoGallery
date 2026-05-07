@@ -64,6 +64,7 @@ utils/
 
 - Real authentication
 - Backend/API integration
+- Skeleton loaders
 - Pagination or lazy loading
 - Unit and integration tests
 - Accessibility improvements
