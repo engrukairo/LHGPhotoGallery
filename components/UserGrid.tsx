@@ -1,16 +1,16 @@
-import { User } from '@/types'
-import UserCard from './UserCard'
+import { User } from "@/types";
+import UserCard from "./UserCard";
 
 interface Props {
-  users: User[]
+  users: User[];
 }
 
 export default function UserGrid({ users }: Props) {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {users.map((user) => (
         <UserCard key={user.id} user={user} />
       ))}
     </div>
-  )
+  );
 }
