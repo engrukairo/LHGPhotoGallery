@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import ImageGrid from "@/components/ImageGrid";
 import { users } from "@/data/users";
 import { notFound } from "next/navigation";
 
@@ -30,6 +31,7 @@ export default async function ProfilePage({ params }: Props) {
             <p className="text-gray-500 mt-1">{user.location}</p>
           </div>
         </div>
+        <ImageGrid images={user.images} />
       </section>
     </main>
   );
