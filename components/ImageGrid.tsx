@@ -27,7 +27,7 @@ export default function ImageGrid({ images }: Props) {
               setIndex(idx);
               setOpen(true);
             }}
-            className="relative overflow-hidden rounded-2xl"
+            className="relative overflow-hidden rounded-2xl cursor-pointer"
           >
             <img
               src={image.url}

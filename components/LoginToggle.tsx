@@ -8,7 +8,7 @@ export default function LoginToggle() {
   return (
     <button
       onClick={toggleLogin}
-      className="px-4 py-2 rounded-lg bg-black text-white hover:opacity-90"
+      className="px-4 py-2 rounded-lg bg-black text-white hover:opacity-90 cursor-pointer"
     >
       {isLoggedIn ? "Logout" : "Login"}
     </button>

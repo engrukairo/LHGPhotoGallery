@@ -14,7 +14,7 @@ export default function LocationFilter({ selected, onChange }: Props) {
     <div className="flex gap-3 flex-wrap">
       <button
         onClick={() => onChange("All")}
-        className={`px-4 py-2 rounded-lg border ${
+        className={`px-4 py-2 rounded-lg border cursor-pointer ${
           selected === "All" ? "bg-black text-white" : "bg-white"
         }`}
       >
@@ -25,7 +25,7 @@ export default function LocationFilter({ selected, onChange }: Props) {
         <button
           key={location}
           onClick={() => onChange(location)}
-          className={`px-4 py-2 rounded-lg border ${
+          className={`px-4 py-2 rounded-lg border cursor-pointer ${
             selected === location ? "bg-black text-white" : "bg-white"
           }`}
         >
