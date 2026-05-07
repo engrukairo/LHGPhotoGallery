@@ -1,4 +1,5 @@
 import Image from "next/image";
+import LoginToggle from "./LoginToggle";
 import Link from "next/link";
 
 export default function Header() {
@@ -14,9 +15,7 @@ export default function Header() {
           />
         </Link>
         <h1 className="text-xl md:text-2xl font-bold">Photo Gallery</h1>
-        <button className="px-4 py-2 rounded-lg bg-black text-white hover:opacity-90">
-          Login
-        </button>
+        <LoginToggle />
       </div>
     </header>
   );
