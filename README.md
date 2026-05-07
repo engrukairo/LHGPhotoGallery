@@ -24,17 +24,20 @@ A responsive photo gallery web application built with Next.js, TypeScript, Tailw
 ## Installation
 
 ```bash
-git clone <https://github.com/engrukairo/LHGPhotoGallery>
-
+git clone https://github.com/engrukairo/LHGPhotoGallery.git lhgphotogallery
+```
+```bash
 cd lhgphotogallery
-
+```
+```bash
 npm install
-
+```
+```bash
 npm run dev
 ```
 
-### Remember to rename your project folder to small letters.
-Capitalization is used in the repository naming as part of my private naming convention.
+### Remember to have your local project folder name in small letters.
+Capitalization is used in the repository naming as part of my private remote naming convention.
 
 Open:
 
